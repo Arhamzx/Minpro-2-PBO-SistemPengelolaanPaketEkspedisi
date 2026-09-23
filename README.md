@@ -14,25 +14,24 @@ Program menyediakan fitur CRUD (Create, Read, Update, Delete) yang memungkinkan 
 
 ## Alur Program
 
-1. Program dijalankan melalui `Minpro2.java` sebagai entry point dan masuk pada tampilan menu utama <img width="1920" height="1080" alt="Screenshot 2026-09-08 183228" src="https://github.com/user-attachments/assets/158b4b33-9802-42e7-8e56-d4aa82d6d055" /> Program menampilkan 6 pilihan menu yakni tambah paket, tampilkan semua paket, cari paket, update paket, hapus paket, dan keluar
+**1.** Program dijalankan melalui `Minpro2.java` sebagai entry point dan masuk pada tampilan menu utama <img width="1277" height="715" alt="image" src="https://github.com/user-attachments/assets/84bfc69c-250d-4edd-b439-0a3873e6da28" /> Program menampilkan 6 pilihan menu yakni tambah paket, tampilkan semua paket, cari paket, update paket, hapus paket, dan keluar
 
-2. User memilih menu 1 untuk menambah data paket (create) <img width="1920" height="1080" alt="Screenshot 2026-09-08 183902" src="https://github.com/user-attachments/assets/d08f0e8d-0094-49a1-9975-5b3da9faf7b7" /> Setelah masuk dalam menu tambah paket, user akan diminta untuk mengisi data paket mulai dari id paket, no resi, nama pengirim, dan tanggal masuk. Di data penerima id penerima, nama penerima, alamat, dan no hp. Pada data ekspedisi, id ekspedisi, nama ekspedisi ex"JNE", dan jenis layanan ex"REG, EXPRESS etc". Terakhir adalah data kurir yakni idkurir, nama kurir dan no hp kurir.
+**2.** User memilih menu 1 untuk menambah data paket (create) <img width="548" height="736" alt="image" src="https://github.com/user-attachments/assets/31f59304-671b-4999-bca7-bfbc0b99d290" /> Setelah masuk dalam menu tambah paket, user akan diminta untuk mengisi data paket mulai dari id paket, no resi, nama pengirim, dan tanggal masuk. Di data penerima id penerima, nama penerima, alamat, dan no hp. Pada data ekspedisi, id ekspedisi, nama ekspedisi ex"JNE", dan jenis layanan ex"REG, EXPRESS etc". Terakhir adalah data kurir yakni idkurir, nama kurir dan no hp kurir.
 
-3. Untuk menampilkan semua data paket (Read), user memilih menu 2 <img width="1920" height="1080" alt="Screenshot 2026-09-08 183936" src="https://github.com/user-attachments/assets/379cf89c-52f1-4255-95ef-9bdc6065bbbb" />
+**3.** Untuk menampilkan semua data paket (Read), user memilih menu 2 <img width="765" height="806" alt="image" src="https://github.com/user-attachments/assets/1ca9be37-76c4-43dd-8fb5-53e1de0d4de8" />
 
-4. Cari paket menggunakan menu 3 (Read), <img width="1920" height="1080" alt="Screenshot 2026-09-08 191134" src="https://github.com/user-attachments/assets/b7ccb05b-f4e8-47df-8235-247cb10863aa" /> pertama, user akan memilih mencari berdasarkan id atau no resi, pada kasus dimana paket sedikit, user bisa menggunakan pencarian berdasarkan id, disaat data paket cukup banyak dapat menggunakan no resi. Program akan menampilkan data paket yang tertera mulai dari detail, penerima, ekspedisi hingga kurir.
+**4.** Cari paket menggunakan menu 3 (Read), <img width="549" height="431" alt="image" src="https://github.com/user-attachments/assets/0267e493-6729-475b-a9eb-e79b02dc66df" /> pertama, user akan memilih mencari berdasarkan id atau no resi, pada kasus dimana paket sedikit, user bisa menggunakan pencarian berdasarkan id, disaat data paket cukup banyak dapat menggunakan no resi. Program akan menampilkan data paket yang tertera mulai dari detail, penerima, ekspedisi hingga kurir.
 
-5. Update paket (update), dapat digunakan user untuk mengubah status paket ataupun data penerima hinngga kurir jika terjadi salah input menggunakan menu 4. <img width="1920" height="1080" alt="Screenshot 2026-09-08 184058" src="https://github.com/user-attachments/assets/6758cf94-6c92-4d4e-8858-a18d22d36fa5" /> jika user tidak jadi menupdate data maka dapat menekan keluar.
+**5.** Update paket (update), dapat digunakan user untuk mengubah status paket ataupun data penerima hinngga kurir jika terjadi salah input menggunakan menu 4. <img width="691" height="552" alt="image" src="https://github.com/user-attachments/assets/4e4cc94a-aeee-4a60-a018-857416ffa99b" /> jika user tidak jadi menupdate data maka dapat menekan keluar.
 
-6. Hapus paket(delete) <img width="1920" height="1080" alt="Screenshot 2026-09-08 184309" src="https://github.com/user-attachments/assets/da5aad80-8724-4313-ac91-79069437b788" /> dapat user gunakan apabila ingin menghapus data paket
+**6.** Hapus paket(delete) <img width="584" height="394" alt="image" src="https://github.com/user-attachments/assets/916f16a5-f73e-452c-b9d4-fe2f17802166" /> dapat user gunakan apabila ingin menghapus data paket
 
-
-7. Menu keluar, dapat digunakan user untuk keluar dari program <img width="1920" height="1080" alt="Screenshot 2026-09-08 184309" src="https://github.com/user-attachments/assets/103b9c02-0483-46a1-8294-38f471f2e932" />
+7. Menu keluar, dapat digunakan user untuk keluar dari program <img width="856" height="484" alt="image" src="https://github.com/user-attachments/assets/1565a28f-4324-4302-a162-112dcd7ff72d" />
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Access modifier diterapkan pada deklarasi atribut dan method di setiap class, seperti penggunaan private pada atribut dan public pada method. Encapsulation diterapkan dengan membatasi akses atribut menggunakan private dan menyediakan method seperti getter untuk mengakses data tersebut. Input validation diterapkan pada bagian program yang menerima input dari pengguna seperti pada menu utama yang mewajibkan user memilih menu 1 - 6, ketika user memilih 0, maka user akan diminta untuk memasukkan angka >0 dan jika >6 maka menampilkan output menu tidak tersedia!
+Access modifier diterapkan pada deklarasi atribut dan method di setiap class, seperti penggunaan private pada atribut dan public pada method. Encapsulation diterapkan dengan membatasi akses atribut menggunakan private dan menyediakan method seperti getter untuk mengakses data tersebut. Input validation diterapkan pada bagian program yang menerima input dari pengguna seperti pada menu utama yang mewajibkan user memilih menu 1 - 6, ketika user memilih 0, maka user akan diminta untuk memasukkan angka >0 dan jika >6 maka menampilkan output menu tidak tersedia!, Validasi input juga digunakan pada input tanggal masuk paket yang mewajibkan menggunakan format dd-mm-yy
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
