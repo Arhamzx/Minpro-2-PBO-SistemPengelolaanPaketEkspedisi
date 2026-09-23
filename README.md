@@ -14,19 +14,41 @@ Program menyediakan fitur CRUD (Create, Read, Update, Delete) yang memungkinkan 
 
 ## Alur Program
 
-**1.** Program dijalankan melalui `Minpro2.java` sebagai entry point dan masuk pada tampilan menu utama <img width="1277" height="715" alt="image" src="https://github.com/user-attachments/assets/84bfc69c-250d-4edd-b439-0a3873e6da28" /> Program menampilkan 6 pilihan menu yakni tambah paket, tampilkan semua paket, cari paket, update paket, hapus paket, dan keluar
+**1.** Program dijalankan melalui `Minpro2.java` sebagai entry point dan masuk pada tampilan menu utama 
 
-**2.** User memilih menu 1 untuk menambah data paket (create) <img width="548" height="736" alt="image" src="https://github.com/user-attachments/assets/31f59304-671b-4999-bca7-bfbc0b99d290" /> Setelah masuk dalam menu tambah paket, user akan diminta untuk mengisi data paket mulai dari id paket, no resi, nama pengirim, dan tanggal masuk. Di data penerima id penerima, nama penerima, alamat, dan no hp. Pada data ekspedisi, id ekspedisi, nama ekspedisi ex"JNE", dan jenis layanan ex"REG, EXPRESS etc". Terakhir adalah data kurir yakni idkurir, nama kurir dan no hp kurir.
+<img width="1277" height="715" alt="image" src="https://github.com/user-attachments/assets/84bfc69c-250d-4edd-b439-0a3873e6da28" /> Program menampilkan 6 pilihan menu yakni tambah paket, tampilkan semua paket, cari paket, update paket, hapus paket, dan keluar
 
-**3.** Untuk menampilkan semua data paket (Read), user memilih menu 2 <img width="765" height="806" alt="image" src="https://github.com/user-attachments/assets/1ca9be37-76c4-43dd-8fb5-53e1de0d4de8" />
+**2.** User memilih menu 1 untuk menambah data paket (create) 
 
-**4.** Cari paket menggunakan menu 3 (Read), <img width="549" height="431" alt="image" src="https://github.com/user-attachments/assets/0267e493-6729-475b-a9eb-e79b02dc66df" /> pertama, user akan memilih mencari berdasarkan id atau no resi, pada kasus dimana paket sedikit, user bisa menggunakan pencarian berdasarkan id, disaat data paket cukup banyak dapat menggunakan no resi. Program akan menampilkan data paket yang tertera mulai dari detail, penerima, ekspedisi hingga kurir.
+<img width="548" height="736" alt="image" src="https://github.com/user-attachments/assets/31f59304-671b-4999-bca7-bfbc0b99d290" /> 
 
-**5.** Update paket (update), dapat digunakan user untuk mengubah status paket ataupun data penerima hinngga kurir jika terjadi salah input menggunakan menu 4. <img width="691" height="552" alt="image" src="https://github.com/user-attachments/assets/4e4cc94a-aeee-4a60-a018-857416ffa99b" /> jika user tidak jadi menupdate data maka dapat menekan keluar.
+Setelah masuk dalam menu tambah paket, user akan diminta untuk mengisi data paket mulai dari id paket, no resi, nama pengirim, dan tanggal masuk. Di data penerima id penerima, nama penerima, alamat, dan no hp. Pada data ekspedisi, id ekspedisi, nama ekspedisi ex"JNE", dan jenis layanan ex"REG, EXPRESS etc". Terakhir adalah data kurir yakni idkurir, nama kurir dan no hp kurir.
 
-**6.** Hapus paket(delete) <img width="584" height="394" alt="image" src="https://github.com/user-attachments/assets/916f16a5-f73e-452c-b9d4-fe2f17802166" /> dapat user gunakan apabila ingin menghapus data paket
+**3.** Untuk menampilkan semua data paket (Read), user memilih menu 2 
 
-7. Menu keluar, dapat digunakan user untuk keluar dari program <img width="856" height="484" alt="image" src="https://github.com/user-attachments/assets/1565a28f-4324-4302-a162-112dcd7ff72d" />
+<img width="765" height="806" alt="image" src="https://github.com/user-attachments/assets/1ca9be37-76c4-43dd-8fb5-53e1de0d4de8" />
+
+**4.** Cari paket menggunakan menu 3 (Read), 
+
+<img width="549" height="431" alt="image" src="https://github.com/user-attachments/assets/0267e493-6729-475b-a9eb-e79b02dc66df" /> 
+
+pertama, user akan memilih mencari berdasarkan id atau no resi, pada kasus dimana paket sedikit, user bisa menggunakan pencarian berdasarkan id, disaat data paket cukup banyak dapat menggunakan no resi. Program akan menampilkan data paket yang tertera mulai dari detail, penerima, ekspedisi hingga kurir.
+
+**5.** Update paket (update), dapat digunakan user untuk mengubah status paket ataupun data penerima hinngga kurir jika terjadi salah input menggunakan menu 4. 
+
+<img width="691" height="552" alt="image" src="https://github.com/user-attachments/assets/4e4cc94a-aeee-4a60-a018-857416ffa99b" /> 
+
+jika user tidak jadi menupdate data maka dapat menekan keluar.
+
+**6.** Hapus paket(delete) 
+
+<img width="584" height="394" alt="image" src="https://github.com/user-attachments/assets/916f16a5-f73e-452c-b9d4-fe2f17802166" /> 
+
+dapat user gunakan apabila ingin menghapus data paket
+
+**7.** Menu keluar, dapat digunakan user untuk keluar dari program
+   
+<img width="856" height="484" alt="image" src="https://github.com/user-attachments/assets/1565a28f-4324-4302-a162-112dcd7ff72d" />
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
